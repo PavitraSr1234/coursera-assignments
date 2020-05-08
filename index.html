@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <title>week 2</title>
+        <link rel="stylesheet" href="css.css">
+    </head>
+
+    <body>
+        <h1>SMART DEVICES SUCCESS </h1>
+
+        <div class="ms1 ls1 ss1">
+            <h2>iPHONE</h2>
+            <p>The first generation iPhone was released on June 29, 2007 in the US. The second generation iPhone called 3G was launched in July 2008, and the third generation, the 3GS, released in June 2009, the fourth generation iPhone 4 was launched on June 24, 2010. And in less than one month after its launch, iPhone 4 got a 3 million sales turnover. From 2007, the year iPhone launched, iPhone sold 50 million, and iPhone 4 predicted could be sold 39 million in 2010, so the total amount of turnover will be reached 100 million in the next year. The iPhone is a cutting-edge product; it is at least 5 years ahead of the competitors, and it accounts for more than half of the market share in Japan. Why the iPhone becomes so successful? The objective  is to illustrate the marketing tools which lead to its success.< 
+        </div>
+
+        <div class="ms2 ls2 ss2">
+            <h2>ONE PLUS</h2>
+            <p>However, when it came time to launch the phone in India, Cyanogen informed OnePlus that it had an existing exclusive deal with Yu, a brand by Micromax. An Indian court suspended sales of the OnePlus phone.This pushed the company to develop in-house software – OxygenOS for the global market and HydrogenOS for China. OnePlus released those as installable ROMs in early 2015, though the software took a while to become stable enough for daily use.Still, the writing was on the wall for Cyanogen Inc. The company’s CEO and namesake boasted that it will wrestle control of Android away from Google, but in no small part due to the OnePlus fiasco, other makers didn’t sign on to use its software.That’s not to say that OnePlus One didn’t get its fair share of third-party ROMs.</p> 
+
+        </div>
+
+        <div class="ms3 ls3 ss3">
+            <h2>SAMSUNG</h2>
+            <P>Samsung comprises of numerous affiliated businesses with shareholders holding a large proportion of shares. This prestigious company is the global leader and an award-winning innovator producing smarter gadgets every day. The multinational company is the largest in South Korea holding multiple subsidiaries like Samsung Electronics, Samsung Heavy Industries, Samsung Life Insurance, Samsung Electro-mechanics and more. Have a captivating experience through our infographic, and quickly grasp essential insights & data that Samsung holdsSamsung chose to become dominant players in several areas: semiconductor manufacturing, display technology, then cellphone. The leaders made good business decisions and the right time to position themselves to be on the growth curve.</P>
+                
+        </div>
+        
+    </body>
+</html>
+
+/***********************basic layout****************************/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(192,192,192);
+    font-size: 18px;
+    margin: 10px;
+}
+
+h1{
+    font-size:2em;
+    text-align:center;
+    font-style: normal;
+    color:black;
+}
+
+div{
+    padding:10px;
+    border: 2px double rgb(0, 0, 0) ;
+   margin-top: 10px;
+   width:100%;
+    height:auto;
+    background-color:rgb(153,204,255);
+    position: relative;
+}
+
+
+h2{
+    text-align: right;
+    margin: 0;
+    border: 2px double rgb(0, 0, 0);
+    background-color: rgb(156, 133, 97);
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+
+p{
+    padding-top: 10px;
+}
+
+
+/************************medium size***********************************/
+@media (min-width:768px) and (max-width:991px){
+    .ms1 , .ms2 , .ms3{
+        float:left;
+    }
+    
+    .ms1{
+        margin-right: 1%;
+        width: 49.5%;
+    }
+
+    .ms2{
+        width: 49.5%;
+    }
+
+    .ms3{
+        width: 100%;
+    }
+}
+
+
+
+/******************************large size ***********************************/
+@media (min-width: 992px){
+    .ls1 , .ls2 , .ls3{
+        float: left;
+        align-items: center;
+        width:33%;
+    }
+    .ls1{
+        margin-right: 0.5%;
+                width:33%;
+    }
+
+    .ls2{ 
+        margin-right: 0.5%;
+                width:33%;
+    }
+}
+    /*************************small size*********************/
+    @media (max-width: 767px){
+    .ss1 , .ss2 , .ss3{
+        float:center;
+        align-items:center;
+        width:100%;
+    }
+    .ss1{
+        margin-right:1%;
+        width:100%;
+    }
+    .ss2{
+        width:100%;
+    }
+    .ss2{
+        width:100%;
+    }
+}
+
+    
